@@ -4231,7 +4231,7 @@ input, select, textarea {
 					#footer > section.split > section:last-child {
 						padding: 3rem 4rem 3rem 4rem ;
 					}
-
+					/* *****Darren Modified first rem down to 2 from like 6************************************ */
 				#footer > section.split.contact > section {
 					display: -moz-flex;
 					display: -webkit-flex;
@@ -4241,7 +4241,7 @@ input, select, textarea {
 					-webkit-align-items: center;
 					-ms-align-items: center;
 					align-items: center;
-					padding: 3.15rem 4rem;
+					padding: 2rem 4rem;
 				}
 
 					#footer > section.split.contact > section > * {
@@ -4270,13 +4270,13 @@ input, select, textarea {
 						-ms-flex-grow: 1;
 						flex-grow: 1;
 					}
-
+					/* ***************Darren Modified first three rem down from 3 or 4************************ */
 					#footer > section.split.contact > section:first-child {
-						padding: 4rem 4rem 3rem 4rem;
+						padding: 2rem 2rem 2rem 4rem;
 					}
-
+/* ***************Darren Modified first three rem down from 3 or 4************************ */
 					#footer > section.split.contact > section:last-child {
-						padding: 3rem 4rem 4rem 4rem;
+						padding: 2rem 2rem 2rem 4rem;
 					}
 
 					#footer > section.split.contact > section.alt {
@@ -4687,3 +4687,42 @@ input, select, textarea {
 		}
 
 	}
+
+article a{
+	flex-grow:1
+}
+
+
+
+	.features {
+		list-style:none;
+		line-height:180%;
+		padding:0;
+	
+	}
+	.features li{
+		padding:0;
+	}
+
+	article{
+		display:flex;
+		flex-direction: column;
+	}
+	
+	.split-contact{
+		height:30px;
+	}
+
+	.api-key{
+		text-align:center;
+		margin:-10px;
+		padding:0;
+		font-size:10px;
+
+	}
+
+	/* *****for certs section**************** */
+
+article a{
+	flex-grow:0
+}
