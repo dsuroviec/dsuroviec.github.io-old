@@ -4702,6 +4702,7 @@ article a{
 	}
 	.features li{
 		padding:0;
+		list-style:none;
 	}
 
 	article{
